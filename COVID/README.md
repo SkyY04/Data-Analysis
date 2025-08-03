@@ -1,62 +1,42 @@
-# COVID Deaths and Vaccinations
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Medical%20Mask.png" alt="Face with Medical Mask" width="25" height="25" />COVID Deaths and Vaccinations<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Medical%20Mask.png" alt="Face with Medical Mask" width="25" height="25" />
 
 Understand how COVID affected around the world
 
 ## Description
+The goal of this project is to analyze COVID deaths and vaccinations data and visualize it to let audience explore the data by country, continent, and time.
+- Compare deaths of covid based on continent
+- Infected population percentage on each country
+- Predict COVID infection population for specific countries
+- Death percentage over COVID infection globally
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
+## Project
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+- Microsoft Excel
+- Microsoft SQL server
+- Tableau
 
-### Installing
+### DataSet
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+- https://ourworldindata.org/covid-deaths
+- https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidDeaths.xlsx
+- https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidVaccinations.xlsx
 
-### Executing program
+### SQL
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+| Queries  | Purpose |
+| ------------- | ------------- |
+| **JOIN** | Vaccinated Percentages base on Population  |
+| **ALTER TABLE** | Change data type of field  |
+| **CTE** | Vaccinated population per location and continent  |
+| **Temp Table** | Percentage of population vaccinated based on date per location |
+| **View** | Location-based vacine progress  |
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+### Tableau Dashboard [COVID Dashboard Link](https://public.tableau.com/views/CovidDashboard_17541665846740/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* Summarize overall case count, total deaths, and death percentage
+* Present total COVID death by continent
+* COVID infection rates across global locations
 
 ## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Alex The Analyst](https://youtu.be/qfyynHBFOsM?feature=shared)
