@@ -31,6 +31,7 @@ The goal of this project is to analyze Canada homicide data and visualize it for
 - [Number, percentage and rate of homicide victims, by gender and Indigenous identity](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510015601&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.2&cubeTimeFrame.startYear=2020&cubeTimeFrame.endYear=2024&referencePeriods=20200101%2C20240101)
 - [Number, percentage and rate of homicide victims, by racialized identity group, gender and region](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510020601)
 - [Number of victims of solved homicides, by type of accused-victim relationship](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3510007301)
+### Microsoft Excel
 
 ### SQL
 
